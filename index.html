@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Clone-Twitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Option Menu -->
+        <div class="menu-opcoes">
+            <div class="centro-opcoes">
+                <div class="logo">
+                  <i class="logo-twitter"></i>
+                </div>
+                <div class="option">
+                    <div><a href=""><i class="fas fa-home"></i>Home</a></div>
+                    <div><a href=""><i class="icone-hashtag"></i>Explore</a></div>
+                    <div><a href=""><i class="icone-notificacao"></i>Notifications</a></div>
+                    <div><a href=""><i class="icone-envelope"></i>Messages</a></div>
+                    <div><a href=""><i class="icone-salvos"></i>Bookmarks</a></div>
+                    <div><a href=""><i class="icone-lista"></i>Lists</a></div>
+                    <div><a href=""><i class="icone-usuario"></i>Profile</a></div>
+                    <div><a href=""><i class="icone-mais"></i>More</a></div>
+                    <div><button>Tweet</button></div>
+                </div>
+            </div>
+        </div>
+        <!-- end of option menu -->
+        <!-- content menu -->
+        <div class="content-menu">
+            <div class="header-1">
+                <span>
+                    <a href="">Pagina inicial</a>
+                </span>
+                <span>
+                    <i class="fa fa-star-o">!</i>
+                </span>
+            </div>
+
+            <div class="meio">
+                <div class="seu-tweet">
+                    <div class="postar-tweet">
+                        <span><img src="http://www.colegiodepadua.com.br/img/user.png" alt=""></span>
+                        <span><input id = "inputTweet" type="text" placeholder="O que ta rolando ?"></span>
+                    </div>
+                    <div class="add-extra">
+                        <div class="images-more">
+                            <span><a href=""><i>imagem</i></a></span>
+                            <span><a href=""><i>gifs</i></a></span>
+                            <span><a href=""><i>enquetes</i></a></span>
+                            <span><a href=""><i>emoji</i></a></span>
+                            <span><a href=""><i>programar</i></a></span>
+                        </div>
+                        <span><button class="tweetButton">Tweet</button></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="outros-tweets">
+                <!-- para cada usuario -->
+                <!-- <div class="outro-tweet">
+                    <div class="msg-perfil">
+                        <div class="outro-perfil">
+                            <img src="http://www.colegiodepadua.com.br/img/user.png" alt="">
+                        </div>
+                        <div class="msg-nome">
+                            <span><p><b>Gabriel usuario</b><i class="circulo-checado"></i>@qualquerusuario,<small>yesterday</small></p></span>
+                            <div class="mensagem">
+                                <p>Ola esse e um tweet</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="mais-opcoes">
+                        <i class="elipse"></i>
+                    </div>
+
+                    <div class="imagem-resposta">
+                        <img src="https://i.pinimg.com/474x/d2/90/e7/d290e76993c580887261c03d050459bc.jpg" alt="">
+                    </div>
+
+                    <div class="sua-reacao">
+                        <div class="comment"><i class="icone-comentario"></i><p>comentario</p></div>
+                        <div class="retweet"><i class="icone-retweet"></i><p>retweet</p></div>
+                        <div class="like"><i class="icone-like"></i><p>like</p></div>
+                        <div class="save"><i class="icone-upload"></i>salvar<p></p></div>
+                    </div>
+                </div> -->
+                <!-- fim do para cada usuario -->
+                
+            </div>
+
+        </div>
+        <!-- end of content menu -->
+
+        <!-- menu do em alta -->
+        <div class="trending-menu">
+            <div class="trending-center">
+                <div class="search">
+                    <input type="search" placeholder="search twitter">
+                    <span><i class="icon-search"></i></span>
+                </div>
+        
+                <div class="trending">
+                    <div class="header">
+                        <p>o que esta acontecendo no mundo</p>
+                    </div>
+                    <div class="trends">
+                        <!-- cada topico -->
+                        <div class="trend">
+                            <div class="trend-msg">
+                                <div class="trend-name">
+                                    <p>IPL 2021.live</p>
+                                </div>
+                                <div class="trend-subject">
+                                    <p>IPL meu ovo ficou grande</p>
+                                </div>
+                                <div class="trend-with">
+                                    <p>topico com <a href="">AMI VSRCB</a><a href=""></a>SRHVSDC</p>
+                                </div>
+                            </div>
+                            <div class="trend-photo">
+                                <img src="https://64.media.tumblr.com/07b77c91d4dfbc2a720f553e23211fa9/tumblr_og3d7xQV271ucsrqio8_400.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="show-more">
+                            <a href="">mostrar mais</a>
+                        </div>
+                        <!-- fim de cada topico -->
+                        <!-- cada topico -->
+                        <div class="trend">
+                            <div class="trend-msg">
+                                <div class="trend-name">
+                                    <p>IPL 2021.live</p>
+                                </div>
+                                <div class="trend-subject">
+                                    <p>IPL meu ovo ficou grande</p>
+                                </div>
+                                <div class="trend-with">
+                                    <p>topico com <a href="">AMI VSRCB</a><a href=""></a>SRHVSDC</p>
+                                </div>
+                            </div>
+                            <div class="trend-photo">
+                                <img src="https://64.media.tumblr.com/07b77c91d4dfbc2a720f553e23211fa9/tumblr_og3d7xQV271ucsrqio8_400.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="show-more">
+                            <a href="">mostrar mais</a>
+                        </div>
+                        <!-- fim de cada topico -->
+                    </div>
+                </div>
+
+                <!-- Follow -->
+                <div class="follow">
+                    <div class="header">
+                        <p>Who to follow</p>
+                    </div>
+                    <div class="persons">
+                        <!-- each person -->
+                        <div class="person">
+                            <div class="person-profile">
+                                <img src="https://64.media.tumblr.com/07b77c91d4dfbc2a720f553e23211fa9/tumblr_og3d7xQV271ucsrqio8_400.png"
+                                    alt="">
+                            </div>
+                            <div class="name">
+                                <div class="main-name">
+                                    <h3>Gabriel0</h3>
+                                </div>
+                                <div class="username">
+                                    <p>@gabrielUser</p>
+                                </div>
+                            </div>
+                            <div class="send-follow-request">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                        <!-- end of each person -->
+                    </div>
+            
+                    <div class="show-more">
+                        <a href="">Show more</a>
+                    </div>
+                <!-- End of Follow -->
+            </div>
+        </div>
+        <!-- fim do menu em alta -->
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
